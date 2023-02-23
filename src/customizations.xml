@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WindowsCustomizations>
+  <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
+    <ID>{f70f31bb-69aa-4a40-a800-f43b1a7af4f5}</ID>
+    <Name>e-power Autopilot enrollment</Name>
+    <Version>1.2</Version>
+    <OwnerType>ITAdmin</OwnerType>
+    <Rank>0</Rank>
+    <Notes></Notes>
+  </PackageConfig>
+  <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+    <Customizations>
+      <Common>
+        <Accounts>
+          <Users>
+            <User UserName="ICT" Name="ICT">
+              <Password>insecure</Password>
+              <UserGroup>Administrators</UserGroup>
+            </User>
+          </Users>
+        </Accounts>
+        <OOBE>
+          <Desktop>
+            <HideOobe>True</HideOobe>
+          </Desktop>
+        </OOBE>
+        <Personalization>
+          <DeployDesktopImage>C:\Users\PC23\source\Windows OOBE configuration\src\blank-desktop.png</DeployDesktopImage>
+          <DeployLockScreenImage>C:\Users\PC23\source\Windows OOBE configuration\src\blank-desktop.png</DeployLockScreenImage>
+          <DesktopImageUrl>blank-desktop.png</DesktopImageUrl>
+          <LockScreenImageUrl>blank-desktop.png</LockScreenImageUrl>
+        </Personalization>
+        <Policies>
+          <TimeLanguageSettings>
+            <ConfigureTimeZone>Romance Standard Time</ConfigureTimeZone>
+          </TimeLanguageSettings>
+        </Policies>
+        <ProvisioningCommands>
+          <PrimaryContext>
+            <Command>
+              <CommandConfig Name="Set-AutoPilot">
+                <CommandFile>C:\Users\PC23\source\Windows OOBE configuration\src\Set-Autopilot.ps1</CommandFile>
+                <CommandLine>PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File .\Set-Autopilot.ps1</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+              </CommandConfig>
+              <CommandConfig Name="Set-UserOOBE">
+                <CommandFile>C:\Users\PC23\source\Windows OOBE configuration\src\Set-UserOOBE.ps1</CommandFile>
+                <CommandLine>PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File .\Set-UserOOBE.ps1</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+              </CommandConfig>
+            </Command>
+          </PrimaryContext>
+        </ProvisioningCommands>
+        <SMISettings>
+          <AutoLogon>
+            <Enable>ENABLE</Enable>
+            <Password>insecure</Password>
+            <UserName>ICT</UserName>
+          </AutoLogon>
+          <UIVerbosityLevel>Do not suppress</UIVerbosityLevel>
+        </SMISettings>
+      </Common>
+    </Customizations>
+  </Settings>
+</WindowsCustomizations>

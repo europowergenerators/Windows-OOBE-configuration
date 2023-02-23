@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ICDProject
+  Name="e-power Autopilot enrollment"
+  Description="Starting from random Windows client, get to desktop ASAP for Autopilot enrollment."
+  Version="10.0.22621.1"
+  Id="{f70f31bb-69aa-4a40-a800-f43b1a7af4f5}"
+  TemplateName="Provisioning package"
+  TemplateType="ProvisioningPackage">
+  <TargetEditions>
+    <Sku>
+      <StoreType>File</StoreType>
+      <Name>All Windows desktop editions</Name>
+      <SourcePath>Microsoft-Desktop-Provisioning.dat</SourcePath>
+      <Edition>Desktop</Edition>
+      <Version>10.0</Version>
+      <Description>Selecting this option will display settings that are specific to the desktop editions as well as settings that are common to all Windows editions.</Description>
+    </Sku>
+  </TargetEditions>
+</ICDProject>
