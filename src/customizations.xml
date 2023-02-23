@@ -3,7 +3,7 @@
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
     <ID>{f70f31bb-69aa-4a40-a800-f43b1a7af4f5}</ID>
     <Name>e-power Autopilot enrollment</Name>
-    <Version>1.2</Version>
+    <Version>1.10</Version>
     <OwnerType>ITAdmin</OwnerType>
     <Rank>0</Rank>
     <Notes></Notes>
@@ -25,8 +25,8 @@
           </Desktop>
         </OOBE>
         <Personalization>
-          <DeployDesktopImage>C:\Users\PC23\source\Windows OOBE configuration\src\blank-desktop.png</DeployDesktopImage>
-          <DeployLockScreenImage>C:\Users\PC23\source\Windows OOBE configuration\src\blank-desktop.png</DeployLockScreenImage>
+          <DeployDesktopImage>E:\Git\Windows-OOBE-configuration\src\blank-desktop.png</DeployDesktopImage>
+          <DeployLockScreenImage>E:\Git\Windows-OOBE-configuration\src\blank-desktop.png</DeployLockScreenImage>
           <DesktopImageUrl>blank-desktop.png</DesktopImageUrl>
           <LockScreenImageUrl>blank-desktop.png</LockScreenImageUrl>
         </Personalization>
@@ -39,14 +39,26 @@
           <PrimaryContext>
             <Command>
               <CommandConfig Name="Set-AutoPilot">
-                <CommandFile>C:\Users\PC23\source\Windows OOBE configuration\src\Set-Autopilot.ps1</CommandFile>
+                <CommandFile>E:\Git\Windows-OOBE-configuration\src\Set-Autopilot.ps1</CommandFile>
                 <CommandLine>PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File .\Set-Autopilot.ps1</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
               </CommandConfig>
               <CommandConfig Name="Set-UserOOBE">
-                <CommandFile>C:\Users\PC23\source\Windows OOBE configuration\src\Set-UserOOBE.ps1</CommandFile>
+                <CommandFile>E:\Git\Windows-OOBE-configuration\src\Set-UserOOBE.ps1</CommandFile>
                 <CommandLine>PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File .\Set-UserOOBE.ps1</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+              </CommandConfig>
+              <CommandConfig Name="Set-Reset">
+                <CommandFile>E:\Git\Windows-OOBE-configuration\src\Set-Autopilot-reset.ps1</CommandFile>
+                <CommandLine>PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File .\Set-Autopilot-reset.ps1</CommandLine>
+                <ContinueInstall>True</ContinueInstall>
+                <RestartRequired>False</RestartRequired>
+              </CommandConfig>
+              <CommandConfig Name="Disable-WindowsUpdate">
+                <CommandFile>E:\Git\Windows-OOBE-configuration\src\Disable-WindowsUpdate.ps1</CommandFile>
+                <CommandLine>PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File .\Disable-WindowsUpdate.ps1</CommandLine>
                 <ContinueInstall>True</ContinueInstall>
                 <RestartRequired>False</RestartRequired>
               </CommandConfig>

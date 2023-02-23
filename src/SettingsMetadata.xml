@@ -128,10 +128,7 @@
       <Description>The authority for the BPRT</Description>
       <Guid>{02edf3f1-9ffd-5ee7-9baf-01064e68ce56}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -142,10 +139,7 @@
       <Description>The bulk token for the linked account.</Description>
       <Guid>{75bb65a7-15bd-579d-986a-b3eafec0f742}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -166,10 +160,7 @@
       <Description>User account authorized to join the computer to the domain. Should be in the domain\account format.</Description>
       <Guid>{c8c18698-852b-51f9-8eb7-6b1542a9f0c3}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -180,10 +171,7 @@
       <Description>The name of the organization unit for the computer account.</Description>
       <Guid>{d8e63a40-c306-56f3-b640-af22b96db623}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -194,10 +182,7 @@
       <Description>Specifies the name of the Windows device. On desktop PCs this sets the computer name. The unique name for domain joined computers must use %RAND:x%, where x is an integer less than 15 digits long, or use %SERIAL% characters.</Description>
       <Guid>{049b84df-af71-583a-b91e-18dcb05b1a5d}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -208,10 +193,7 @@
       <Description>The name of the domain to join.</Description>
       <Guid>{adda0803-15ed-52df-b9b7-57769b3ff5f8}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -222,10 +204,7 @@
       <Description>Password for the account authorized to join the computer to the domain.</Description>
       <Guid>{ee111d5e-666a-5601-ba12-cf99157c7c26}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -237,8 +216,6 @@
       <Guid>{e309994b-3045-5394-98fd-b2b23071530d}</Guid>
       <IsLeaf>False</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -261,10 +238,7 @@
       <Description>The path of the home directory for the user.</Description>
       <Guid>{ef679382-f704-5a16-871f-a0a3f6b6f4f5}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -275,10 +249,7 @@
       <Description></Description>
       <Guid>{8d549311-7d77-533d-af73-6c69bd317c92}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -322,8 +293,6 @@
       <Guid>{299ebfad-99a5-5bda-b7ce-e857e3e598d9}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -357,8 +326,6 @@
       <Guid>{e09f5e88-8f3d-5eb8-8fc9-95038623e606}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -381,10 +348,7 @@
       <Description>Set account and app (by AUMID). Example: {"Account":"domain\\user", "AUMID":"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"}.</Description>
       <Guid>{0c74ad84-33f9-5c93-867a-50a830ddf399}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -417,8 +381,6 @@
       <Guid>{69ce594b-94a0-5522-bb9c-923b69945eb9}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -431,10 +393,7 @@
       <Description>Character string that specifies an OEM Partner Search Code</Description>
       <Guid>{5cfadbf1-7963-5449-ab23-e22e2d0f847e}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -574,10 +533,7 @@
       <Description>List of application IDs that are allowed access</Description>
       <Guid>{40654131-41e3-5272-8d88-622f3148656f}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -829,8 +785,6 @@
       <Guid>{63f93941-fdf2-543e-ae6d-cd3a096fad48}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -844,8 +798,6 @@
       <Guid>{d58450e5-1554-543a-b752-7eac0d973cdb}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -922,8 +874,6 @@
       <Guid>{8d47423e-3d02-57e8-bde5-a0c835997af2}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -948,8 +898,6 @@
       <Guid>{2a85e161-a3db-5c85-8838-ab494605b60a}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1038,8 +986,6 @@
       <Guid>{6f04d4e9-7fa5-5b9b-b9fe-62f7e3e4c435}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1053,8 +999,6 @@
       <Guid>{f256bc63-5c2b-5f59-a3ba-e3fd778a630b}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1068,8 +1012,6 @@
       <Guid>{ece3d068-d795-549b-ae52-88421c473d6b}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1083,8 +1025,6 @@
       <Guid>{0399c84a-adaf-5b23-9d21-c4a96c0690f1}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1098,8 +1038,6 @@
       <Guid>{c823bb5e-bfa9-5d98-96bb-b5f3e5140f1f}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1113,8 +1051,6 @@
       <Guid>{afecee36-792f-50f2-b4e6-7651010d693e}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1128,8 +1064,6 @@
       <Guid>{6936ec89-c018-5cef-a6dd-587eb90668ac}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1143,8 +1077,6 @@
       <Guid>{3817c57d-8d37-5029-b263-967fa2aaac6f}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1158,8 +1090,6 @@
       <Guid>{e6140f81-609b-5f23-b9c2-fd4433813f38}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1183,8 +1113,6 @@
       <Guid>{8401557c-cad8-515c-bddf-4d3a66a387e3}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1198,8 +1126,6 @@
       <Guid>{7aefb76e-dc33-58c7-9342-5cea2bda7d43}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1213,8 +1139,6 @@
       <Guid>{357c5432-01e7-5656-b905-2298c7f5d1bf}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1228,8 +1152,6 @@
       <Guid>{c3ce0e10-cf9e-5663-875a-aa4fc45723fe}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1243,8 +1165,6 @@
       <Guid>{24fbc7cf-0575-52f3-afeb-eb4483f64121}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1258,8 +1178,6 @@
       <Guid>{e3d139ac-572c-5463-8d8f-a0ac096bc293}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1323,8 +1241,6 @@
       <Guid>{c44f1987-7cdb-5063-a96c-d9a4074a5f1c}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1338,8 +1254,6 @@
       <Guid>{ca396fa2-f1ca-559d-9fc4-8aba9feb9313}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1353,8 +1267,6 @@
       <Guid>{2f2ff03c-2973-57f9-9156-8c605822b293}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1389,8 +1301,6 @@
       <Guid>{1609f0db-5d00-5c28-ba0f-60d28fb397bf}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1404,8 +1314,6 @@
       <Guid>{3084c383-06d8-5296-8719-1ce23c7da8a7}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1419,8 +1327,6 @@
       <Guid>{a3483d86-29f6-5deb-b346-14d430b8d4fc}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1513,8 +1419,6 @@
       <Guid>{4cd060be-d2f7-5710-8df1-d3abd7dfa820}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1538,8 +1442,6 @@
       <Guid>{8902f20e-23d4-5a09-930f-cb72032b09cb}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1573,10 +1475,7 @@
       <Description>Specify alternate KnownAccountsOEM.xml file path</Description>
       <Guid>{0dd59ef4-cce5-5407-ac04-5232f859208e}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -1647,8 +1546,6 @@
       <Guid>{723cfe6b-4d7c-5ad0-b553-325983769e50}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1855,8 +1752,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{c4cb3553-4bc5-5f00-9c4a-e8b41588f023}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1879,10 +1774,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specify a country code for additional capability prompts when apps use privacy-sensitive features (such as Contacts or Microphone). For China, use 'zh'.</Description>
       <Guid>{bd604e80-cecc-5328-91bc-9eb5efda20f6}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -1904,8 +1796,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{95275d16-05ee-5578-8b12-4bae0dbdc33a}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1939,10 +1829,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{bc5af459-509c-5fe5-bcff-0901033ea610}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -1954,8 +1841,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{cfaf7b98-3cdb-57c4-b7ed-d09808f4cb72}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -1978,10 +1863,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>On desktop PCs sets the DNS hostname of the computer (Computer Name) up to 63 characters. Use %RAND:x% to generate x number of random digits in the name, x must be a number less than 63. For domain joined computers, the unique name must use %RAND:x%. Use %SERIAL% to generate the name with the computer"s serial number embedded. If the serial number exceeds the character limit, it will be truncated from the beginning of the sequence. The character restriction limit does not count the length of the macros %RAND:x% and %SERIAL%. This setting is only supported in Windows 10 version 2004 and later releases. To change this setting on earlier releases use the ComputerName setting under Accounts -&gt; ComputerAccount</Description>
       <Guid>{6dabf38e-e86d-51e4-a441-256432f2c691}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2024,8 +1906,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{2a4aa252-6c03-58a5-98f4-d0a0b89afc72}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -2079,8 +1959,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{b01dce22-fb07-5764-9649-7b8624605ec5}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -2187,10 +2065,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{79fc18a2-ab53-55dc-b384-d07b7a4658c9}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2211,10 +2086,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Package ID for custom content published by OEM.</Description>
       <Guid>{5763a368-376c-5c0e-ab69-8838c5cba904}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2225,10 +2097,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Target version of the OCP product</Description>
       <Guid>{fe411de4-3330-5f91-b87e-eb1ea3d94d91}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2239,10 +2108,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Target version of the OS product</Description>
       <Guid>{d143e69a-8995-5e57-b5dd-0730ffdde23d}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2253,10 +2119,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Target version of the SystemManifest product</Description>
       <Guid>{43f2feeb-b6b3-5280-bfa6-769e73903149}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2267,10 +2130,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Identifies a specific category of OEM device. OEMs can categorize their devices and specify them in the DUC portal.</Description>
       <Guid>{f9307ac8-c5f5-56c4-bd3f-d78bd21f0899}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2281,10 +2141,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Mainfest carrying the desired versions payload.</Description>
       <Guid>{a8531b8e-9da2-571d-93ca-68365c647c40}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2295,10 +2152,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>OEMs can choose between 3 (deployment) rings for their device - Preview, EarlyAdopter, GeneralAvailability.</Description>
       <Guid>{f4ebeb72-707b-5828-ab16-e1d28bc8e845}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2309,10 +2163,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Unique ID (string) per OEM that is generated during the registration process in DUC portal.</Description>
       <Guid>{fcc12375-633d-5109-a1f8-e1908680abad}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2333,10 +2184,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Update Management Service Addresses by re-ordering and/or removing existing ones</Description>
       <Guid>{654548f4-fa79-5760-bbee-c53715702762}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2357,10 +2205,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Installs a product key, which will be used to update the existing product key on the device. Does not require a reboot.</Description>
       <Guid>{d2d203e5-c8c1-5434-b05d-d87f057a48a2}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2382,10 +2227,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Enable an edition upgrade of Windows 10 desktop devices. Requires reboot.</Description>
       <Guid>{2c446769-c3a3-5f71-86e7-3200f42c21ce}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2420,6 +2262,21 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <IsLeaf>True</IsLeaf>
       <Default>False</Default>
       <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/Education/IsEducationEnvironment">
+      <Type>Int</Type>
+      <Name>IsEducationEnvironment</Name>
+      <Description>This policy setting allows tenant to control whether to declare this OS as an education environment</Description>
+      <Guid>{6c203e41-9002-5949-a6cf-f793360677f9}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>0</Default>
+      <ValidationInfo>
+        <LowerBound>0</LowerBound>
+        <UpperBound>1</UpperBound>
+      </ValidationInfo>
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2524,10 +2381,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specifies the semicolon separated list of Connection Manager cellular connections that Internet sharing will use as the public connections.</Description>
       <Guid>{6f79b479-3c5c-52c1-89fe-52e85c559095}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2549,10 +2403,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>The path to the entitlement DLL used to make entitlement checks that verify that the device is entitled to use the Internet sharing service on a mobile operator's network.</Description>
       <Guid>{c8700dfa-f262-5866-9e0b-b2a61a24cc52}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2616,10 +2467,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>An application link that points to a pre-installed application, provided by the mobile operator, that will help a user to subscribe to the mobile operator's Internet sharing service when Internet sharing is not provisioned or entitlement fails.</Description>
       <Guid>{4a4c45b3-10d5-58bb-b062-5a17f2dc38e3}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2630,10 +2478,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Reference to a localized string, provided by the mobile operator, that is displayed when Internet sharing is not enabled due to entitlement failure.</Description>
       <Guid>{96807eef-8bb7-563e-91cf-0652c52de06f}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2644,10 +2489,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>A mobile operator-specified phone number that is displayed to the user when the Internet sharing service fails to start.</Description>
       <Guid>{696dc296-34a8-5abc-83fa-f29bdffa3408}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2658,10 +2500,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>A mobile operator-specified HTTP link that is displayed to the user when Internet sharing is disabled or the device is not entitled.</Description>
       <Guid>{31ace42d-d61a-5ee1-b371-390c201b80e6}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2700,10 +2539,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specifies the CDMA TetheringNAI Connection Manager cellular connection that Internet sharing will use as a public connection.</Description>
       <Guid>{ea357407-19ba-5e14-9a93-643397244548}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2725,8 +2561,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{0bb94177-770a-5e1b-a09c-15351859d6f9}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -2739,10 +2573,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>BCP47 tag (ie en-US, de-DE, etc.) of the language to be set as the system preferred UI Language. Language must be already installed on device.                 System Preferred UI Language determines the language used to display UI resources such as menus and dialogs.</Description>
       <Guid>{2f011ba9-8449-5dd2-a8ce-e3e270b42548}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2807,10 +2638,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Home SUPL Server address and port number, or the URL.</Description>
       <Guid>{6b4d194d-4b12-59d6-82fa-c8de8a9bd144}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2821,10 +2649,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Determines which full version, X.Y.Z that the GPS driver should use. X, Y, and Z are major, minor, and service indicator version, respectively. If FullVersion field is defined, Version field that defines only major version is ignored.</Description>
       <Guid>{2c07368b-6023-54bd-9337-e733bde56843}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2835,10 +2660,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>MCC/MNC pairs owned by the carrier, listed in the format: (MCC1,MNC1)(MCC2,MNC2)...(MCCn,MNCn)</Description>
       <Guid>{8cb1b9eb-e91e-5d90-bfa9-743068d3f832}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2903,10 +2725,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>The First Server Certificate Name.</Description>
       <Guid>{f2489f84-7280-507c-b626-37d472b50f51}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2938,10 +2757,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>The Second Server Certificate Name.</Description>
       <Guid>{60616e1c-2af4-587a-b642-61f019dcc0de}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -2973,10 +2789,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>The Third Server Certificate Name.</Description>
       <Guid>{e3e0bbee-5f7b-5231-a1f0-31d46970f197}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3008,10 +2821,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>The Forth Server Certificate Name.</Description>
       <Guid>{74884bfe-b3b8-5cac-a671-58779eb43784}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3043,10 +2853,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>The Fifth Server Certificate Name.</Description>
       <Guid>{ae6c1fc0-4e56-51cc-a0aa-4d7e70650eb6}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3078,10 +2885,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>The Sixth Server Certificate Name.</Description>
       <Guid>{dd4f9b84-fa45-5d8f-9c91-6db382c010ac}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3124,10 +2928,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Mobile Positioning Center</Description>
       <Guid>{176e20d5-b2c5-524e-a9b4-ca8727b2dfec}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3160,10 +2961,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Position Determination Entity</Description>
       <Guid>{b726841f-8419-5126-bb48-170632a31d49}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3252,10 +3050,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>List of URLs (seperated by Unicode character 0xF000) to endpoints accessible only within an enterprise's network. If any of the URLs can be resolved over HTTPS, the network would be considered authenticated.</Description>
       <Guid>{b232dc6b-6345-5b84-bedc-b8d2e5b04e8f}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3266,10 +3061,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>The string will be used to name the network authenticated against one of the endpoints listed in AllowedTlsAuthenticationEndpoints policy</Description>
       <Guid>{eb3e7787-1145-5068-9093-63c7bcf3f6a2}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3356,10 +3148,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specify a jpg, jpeg or png image to be used as Desktop Image. This setting can take a http or https Url to a remote image to be downloaded or a file Url to an existing local image. This setting can also use the image as supplied in the DeployDesktopImage asset node. In this case, DesktopImageUrl should be given just the file name in the DeployDesktopImage value.</Description>
       <Guid>{125a439d-de5d-5b22-bd32-a1c6a1604a68}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3370,10 +3159,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specify a jpg, jpeg or png image to be used as Lock Screen Image. This setting can take a http or https Url to a remote image to be downloaded or a file Url to an existing local image. This setting can also use the image as supplied in the DeployLockScreenImage asset node. In this case, LockScreenImageUrl should be given just the file name in the DeployLockScreenImage value.</Description>
       <Guid>{913b29e0-5254-5eb8-b8d3-fb9c87c58d04}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3474,10 +3260,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{0d3e56a1-7164-5794-a894-0af0189c4d2f}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3498,10 +3281,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This setting specifies the XML file content (base64 encoded) that contains file type and protocol default application associations. This file can be created using the DISM tool.</Description>
       <Guid>{254c1ae1-448b-5ee4-8c28-2643cae2c660}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3594,10 +3374,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>List of semi-colon delimited Package Family Names of Windows apps. Listed Windows apps are to be launched after logon.</Description>
       <Guid>{11aff555-a986-5910-bc3f-305f6b7b1789}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3663,10 +3440,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specifies a list of domains that are allowed to access the webcam in CXH-based authentication scenarios.</Description>
       <Guid>{3781e0ee-88eb-58a4-9013-bd6115b2c53c}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3677,10 +3451,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specifies a list of URLs that are navigable in Web Sign-in based authentication scenarios.</Description>
       <Guid>{e6bc4fb1-bd9b-5b18-8d9f-532e582fa710}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3721,10 +3492,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specifies the preferred domain among available domains in the AAD tenant.</Description>
       <Guid>{4c2b2886-536d-51e9-8a89-f256400479be}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3830,10 +3598,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{af836f87-59bf-513c-b1f3-f621a23f18e0}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -3844,10 +3609,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{78975ee9-c49e-525e-9eb3-9a828d4ea24c}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -4240,10 +4002,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Allows you to add up to 5 additional search engines for MDM-enrolled devices.  If this setting is turned on, you can add up to 5 additional search engines for your employee. For each additional search engine you wish to add, you must specify a link to the OpenSearch XML file that contains, at minimum, the short name and the URL to the search engine. This policy does not affect the default search engine. Employees will not be able to remove these search engines, but they can set any one of these as the default.  If this setting is not configured, the search engines are the ones specified in the App settings. If this setting is disabled, the search engines you had added will be deleted from your employee's machine.  Due to Protected Settings (aka.ms/browserpolicy), this policy will only apply on domain-joined machines or when the device is MDM-enrolled.</Description>
       <Guid>{b9604199-e114-5668-a0aa-3395068611d8}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -4373,10 +4132,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This setting lets you configure whether your company uses Enterprise Mode and the Enterprise Mode Site List to address common compatibility problems with legacy websites.</Description>
       <Guid>{86950b84-104b-5e73-9369-cafebc74f878}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -4387,10 +4143,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{c4183706-92ff-56e9-839e-feb06fe759e5}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -4401,10 +4154,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>When you enable the Configure Open Microsoft Edge With policy, you can configure one or more Start pages. When you enable this policy, users are not allowed to make changes to their Start pages.  If enabled, you must include URLs to the pages, separating multiple pages using angle brackets in the following format:        &lt;support.contoso.com&gt;&lt;support.microsoft.com&gt;  If disabled or not configured, the webpages specified in App settings loads as the default Start pages.  Version 1703 or later: If you do not want to send traffic to Microsoft, enable this policy and use the &lt;about:blank&gt; value, which honors domain- and non-domain-joined devices, when it is the only configured URL.  Version 1809: If enabled, and you select either Start page, New Tab page, or previous page in the Configure Open Microsoft Edge With policy, Microsoft Edge ignores the Configure Start Pages policy. If not configured or you set the Configure Open Microsoft Edge With policy to a specific page or pages, Microsoft Edge uses the Configure Start Pages policy.  Supported devices: Domain-joined or MDM-enrolled Related policy: - Configure Open Microsoft Edge With - Disable Lockdown of Start Pages</Description>
       <Guid>{e59c88f4-c68e-50ee-98bd-39a4da057ace}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -4520,10 +4270,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>You can define a list of extensions in Microsoft Edge that users cannot turn off. You must deploy extensions through any available enterprise deployment channel, such as Microsoft Intune. When you enable this policy, users cannot uninstall extensions from their computer, but they can configure options for extensions defined in this policy, such as allow for InPrivate browsing. Any additional permissions requested by future updates of the extension gets granted automatically.  When you enable this policy, you must provide a semi-colon delimited list of extension package family names (PFNs).  For example, adding Microsoft.OneNoteWebClipper_8wekyb3d8bbwe;Microsoft.OfficeOnline_8wekyb3d8bbwe  prevents a user from turning off the OneNote Web Clipper and Office Online extension.  When enabled, removing extensions from the list does not uninstall the extension from the user’s computer automatically. To uninstall the extension, use any available enterprise deployment channel.  If you enable the Allow Developer Tools policy, then this policy does not prevent users from debugging and altering the logic on an extension.  If disabled or not configured, extensions defined as part of this policy get ignored.  Default setting:  Disabled or not configured Related policies: Allow Developer Tools Related Documents: - Find a package family name (PFN) for per-app VPN (https://docs.microsoft.com/en-us/sccm/protect/deploy-use/find-a-pfn-for-per-app-vpn) - How to manage apps you purchased from the Microsoft Store for Business with Microsoft Intune (https://docs.microsoft.com/en-us/intune/windows-store-for-business) - How to assign apps to groups with Microsoft Intune (https://docs.microsoft.com/en-us/intune/apps-deploy) - Manage apps from the Microsoft Store for Business with System Center Configuration Manager  (https://docs.microsoft.com/en-us/sccm/apps/deploy-use/manage-apps-from-the-windows-store-for-business) - How to add Windows line-of-business (LOB) apps to Microsoft Intune (https://docs.microsoft.com/en-us/intune/lob-apps-windows)</Description>
       <Guid>{f73ebfa2-9e61-5369-9d4d-3b7a2c36e4bc}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -4549,10 +4296,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting allows you to configure a default set of favorites, which will appear for employees. Employees cannot modify, sort, move, export or delete these provisioned favorites.  If you enable this setting, you can set favorite URL"s and favorite folders to appear on top of users" favorites list (either in the Hub or Favorites Bar). The user favorites will appear after these provisioned favorites.  Important Don"t enable both this setting and the Keep favorites in sync between Internet Explorer and Microsoft Edge setting. Enabling both settings stops employees from syncing their favorites between Internet Explorer and Microsoft Edge.  If you disable or don"t configure this setting, employees will see the favorites they set in the Hub and Favorites Bar.</Description>
       <Guid>{3674f639-08fb-55b7-83fe-92b8edfb35a8}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -4578,10 +4322,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Sets the default search engine for MDM-enrolled devices. Users can still change their default search engine.  If this setting is turned on, you are setting the default search engine that you would like your employees to use. Employees can still change the default search engine, unless you apply the AllowSearchEngineCustomization policy which will disable the ability to change it. You must specify a link to the OpenSearch XML file that contains, at minimum, the short name and the URL to the search engine. If you would like for your employees to use the Edge factory settings for the default search engine for their market, set the string EDGEDEFAULT; if you would like for your employees to use Bing as the default search engine, set the string EDGEBING.  If this setting is not configured, the default search engine is set to the one specified in App settings and can be changed by your employees.  If this setting is disabled, the policy-set search engine will be removed, and, if it is the current default, the default will be set back to the factory Microsoft Edge search engine for the market.  Due to Protected Settings (aka.ms/browserpolicy), this policy will only apply on domain-joined machines or when the device is MDM-enrolled.</Description>
       <Guid>{a4b8ee08-1a0a-57fb-a07c-f98aa82b9bd9}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -4592,10 +4333,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>The home button can be configured to load a custom URL when your user clicks the home button.  If enabled, or configured, and the Configure Home Button policy is enabled, and the Show home button &amp; set a specific page is selected, a custom URL loads when your user clicks the home button.  Default setting: Blank or not configured Related policy: Configure Home Button</Description>
       <Guid>{4eb1eaf7-a00b-568e-b97e-fbaba7c53651}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -4606,10 +4344,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>You can set the default New Tab page URL in Microsoft Edge.  Enabling this policy prevents your users from changing the New tab page setting. When enabled and the Allow web content on New Tab page policy is disabled, Microsoft Edge ignores the URL specified in this policy and opens about:blank.  If enabled, you can set the default New Tab page URL.  If disabled or not configured, the default Microsoft Edge new tab page is used.  Default setting:  Disabled or not configured Related policy: Allow web content on New Tab page</Description>
       <Guid>{6b42d452-4012-50ef-8bae-b30108e8594e}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -4836,10 +4571,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting allows you to control whether a domain user can sign in using a convenience PIN.  If you enable this policy setting, a domain user can set up and sign in with a convenience PIN.  If you disable or don"t configure this policy setting, a domain user can"t set up and use a convenience PIN.  Note: The user"s domain password will be cached in the system vault when using this feature.  To configure Windows Hello for Business, use the Administrative Template policies under Windows Hello for Business.</Description>
       <Guid>{f81153af-649e-54fd-92ea-67f2f60d9243}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -4890,10 +4622,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{84995ce1-db5f-573a-96af-0db66fe64088}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -5139,10 +4868,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{b908657a-9c69-5e73-bc34-c99f1352b6a9}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -5153,10 +4879,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{7aa9e559-ab7e-5dc2-a237-670eea2f8419}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -5167,10 +4890,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{9f25031e-0daa-55a6-918f-3d2deb8d7a85}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -5286,10 +5006,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{e879516a-7b3c-534d-852f-6a6a79103206}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -5339,10 +5056,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy allows you to set one or more Microsoft Connected Cache servers that will be used by your client(s).</Description>
       <Guid>{bcd317cb-d1c1-56bb-896e-9100fd552255}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -5436,10 +5150,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{574fdf62-b97e-508b-b65a-267e4d28667d}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -5670,10 +5381,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This setting specifies the XML representation of the maximum background download bandwidth, that Delivery Optimization uses during and outside business hours across all concurrent download activities as a percentage of available download bandwidth.</Description>
       <Guid>{23facb39-7242-51a2-adc8-f90c79f5337c}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -5684,10 +5392,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This setting specifies the XML representation of the maximum foreground download bandwidth, that Delivery Optimization uses during and outside business hours across all concurrent download activities as a percentage of available download bandwidth.</Description>
       <Guid>{f4d50396-0511-5072-ae6a-697e9662ad60}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -5910,10 +5615,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy disables the lock screen slide show settings in PC Settings and prevents a slide show from playing on the lock screen.</Description>
       <Guid>{5cd0bf45-f396-561c-ad5c-5b7dc18295b5}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6241,10 +5943,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specify a common set of Microsoft Defender Exploit Guard system and application mitigation settings that can be applied to all endpoints that have this GP setting configured.  There are some prerequisites before you can enable this setting: - Manually configure a device"s system and application mitigation settings using the Set-ProcessMitigation PowerShell cmdlet, the ConvertTo-ProcessMitigationPolicy PowerShell cmdlet, or directly in Windows Security. - Generate an XML file with the settings from the device by running the Get-ProcessMitigation PowerShell cmdlet or using the Export button at the bottom of the Exploit Protection area in Windows Security. - Place the generated XML file in a shared or local path.  Note: Endpoints that have this GP setting set to Enabled must be able to access the XML file, otherwise the settings will not be applied.  Enabled Specify the location of the XML file in the Options section. You can use a local (or mapped) path, a UNC path, or a URL, such as the following: - C:\MitigationSettings\Config.XML - \\Server\Share\Config.xml - https://localhost:8080/Config.xml  The settings in the XML file will be applied to the endpoint.  Disabled Common settings will not be applied, and the locally configured settings will be used instead.  Not configured Same as Disabled.</Description>
       <Guid>{0c7ddd31-72df-52aa-aeaf-5ee62ab1eaab}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6360,10 +6059,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>List of blocked website URLs exceptions (with wildcard support). This is used to configure allowed URLs kiosk browsers can navigate to.</Description>
       <Guid>{0d4d5aa1-0ac6-52ab-ac30-47df36015f51}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6374,10 +6070,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>List of blocked website URLs (with wildcard support). This is used to configure blocked URLs kiosk browsers can not navigate to.</Description>
       <Guid>{da942afe-5560-5253-9707-54ef48663983}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6388,10 +6081,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Configures the default URL kiosk browsers navigate to on launch.</Description>
       <Guid>{98e5d179-5d48-5abb-90ff-62017e86a49a}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6604,10 +6294,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting manages whether or not Windows is allowed to use standby states when putting the computer in a sleep state.  If you enable or do not configure this policy setting, Windows uses standby states to put the computer in a sleep state.  If you disable this policy setting, standby states (S1-S3) are not allowed.</Description>
       <Guid>{cecb6994-d3a0-52a2-a5f3-028a034d8ccb}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6618,10 +6305,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting manages whether or not Windows is allowed to use standby states when putting the computer in a sleep state.  If you enable or do not configure this policy setting, Windows uses standby states to put the computer in a sleep state.  If you disable this policy setting, standby states (S1-S3) are not allowed.</Description>
       <Guid>{111b26b4-c0ff-5795-aedb-0ed4a2613e25}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6632,10 +6316,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting allows you to specify the period of inactivity before Windows turns off the display.  If you enable this policy setting, you must provide a value, in seconds, indicating how much idle time should elapse before Windows turns off the display.  If you disable or do not configure this policy setting, users control this setting.  If the user has configured a slide show to run on the lock screen when the machine is locked, this can prevent the display from turning off.  The "Prevent enabling lock screen slide show" policy setting can be used to disable the slide show feature.  For example, set the value to &lt;enabled/&gt;&lt;data id="EnterVideoDCPowerDownTimeOut" value="300"/&gt; to enable this policy, &lt;disabled/&gt; to disable it.</Description>
       <Guid>{eed8192e-9c4c-5c6f-894b-9464507d49aa}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6646,10 +6327,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting allows you to specify the period of inactivity before Windows turns off the display.  If you enable this policy setting, you must provide a value, in seconds, indicating how much idle time should elapse before Windows turns off the display.  If you disable or do not configure this policy setting, users control this setting.  If the user has configured a slide show to run on the lock screen when the machine is locked, this can prevent the display from turning off.  The "Prevent enabling lock screen slide show" policy setting can be used to disable the slide show feature.  For example, set the value to &lt;enabled/&gt;&lt;data id="EnterVideoACPowerDownTimeOut" value="300"/&gt; to enable this policy, &lt;disabled/&gt; to disable it.</Description>
       <Guid>{29362ca9-5709-5d6a-8d82-5b2a91eab2ce}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6688,10 +6366,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting allows you to specify the period of inactivity before Windows transitions the system to hibernate.  If you enable this policy setting, you must provide a value, in seconds, indicating how much idle time should elapse before Windows transitions to hibernate.  If you disable or do not configure this policy setting, users control this setting.  If the user has configured a slide show to run on the lock screen when the machine is locked, this can prevent the sleep transition from occuring.  The "Prevent enabling lock screen slide show" policy setting can be used to disable the slide show feature.  For example, set the value to &lt;enabled/&gt;&lt;data id="EnterDCHibernateTimeOut" value="300"/&gt; to enable this policy, &lt;disabled/&gt; to disable it.</Description>
       <Guid>{20b0bf03-701c-52e8-852e-99f681783607}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6702,10 +6377,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting allows you to specify the period of inactivity before Windows transitions the system to hibernate.  If you enable this policy setting, you must provide a value, in seconds, indicating how much idle time should elapse before Windows transitions to hibernate.  If you disable or do not configure this policy setting, users control this setting.  If the user has configured a slide show to run on the lock screen when the machine is locked, this can prevent the sleep transition from occuring.  The "Prevent enabling lock screen slide show" policy setting can be used to disable the slide show feature.  For example, set the value to &lt;enabled/&gt;&lt;data id="EnterACHibernateTimeOut" value="300"/&gt; to enable this policy, &lt;disabled/&gt; to disable it.</Description>
       <Guid>{24170149-3f1e-5204-870a-83fa8cf66b1c}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6716,10 +6388,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting specifies whether or not the user is prompted for a password when the system resumes from sleep.  If you enable or do not configure this policy setting, the user is prompted for a password when the system resumes from sleep.  If you disable this policy setting, the user is not prompted for a password when the system resumes from sleep.</Description>
       <Guid>{7ddda626-60ba-5c22-82c1-86a1fa2a29ff}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6730,10 +6399,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting specifies whether or not the user is prompted for a password when the system resumes from sleep.  If you enable or do not configure this policy setting, the user is prompted for a password when the system resumes from sleep.  If you disable this policy setting, the user is not prompted for a password when the system resumes from sleep.</Description>
       <Guid>{c241b9e8-2a99-5612-9cca-2d99cfdc8c85}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6834,10 +6500,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting allows you to specify the period of inactivity before Windows transitions the system to sleep.  If you enable this policy setting, you must provide a value, in seconds, indicating how much idle time should elapse before Windows transitions to sleep.  If you disable or do not configure this policy setting, users control this setting.  If the user has configured a slide show to run on the lock screen when the machine is locked, this can prevent the sleep transition from occuring.  The "Prevent enabling lock screen slide show" policy setting can be used to disable the slide show feature.  For example, set the value to &lt;enabled/&gt;&lt;data id="EnterDCStandbyTimeOut" value="300"/&gt; to enable this policy, &lt;disabled/&gt; to disable it.</Description>
       <Guid>{0e1bd395-ebd3-5afe-9a93-9454e36a5459}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -6848,10 +6511,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting allows you to specify the period of inactivity before Windows transitions the system to sleep.  If you enable this policy setting, you must provide a value, in seconds, indicating how much idle time should elapse before Windows transitions to sleep.  If you disable or do not configure this policy setting, users control this setting.  If the user has configured a slide show to run on the lock screen when the machine is locked, this can prevent the sleep transition from occuring.  The "Prevent enabling lock screen slide show" policy setting can be used to disable the slide show feature.  For example, set the value to &lt;enabled/&gt;&lt;data id="EnterACStandbyTimeOut" value="300"/&gt; to enable this policy, &lt;disabled/&gt; to disable it.</Description>
       <Guid>{c5725480-821c-5778-a245-8ccf5c4d66b4}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -7275,10 +6935,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy allows an administrator to block a given set of pages from the System Settings app. Blocked pages will not be visible in the app, and if all pages in a category are blocked the category will be hidden as well. Direct navigation to a blocked page via URI, context menu in Explorer or other means will result in the front page of Settings being shown instead. The mode will be specified by the policy string beginning with either the string "showonly:" or "hide:". Pages are identified by a shortened version of their already published URIs, which is the URI minus the "ms-settings:" prefix. Multiple page identifiers are separated by semicolons.</Description>
       <Guid>{04b4d9b4-2c84-5006-8e7f-a84b80a88f2c}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -7449,10 +7106,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy configures the list of apps pinned to Start.</Description>
       <Guid>{e36717ef-d908-5b18-8845-1c089cf933bf}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -7478,10 +7132,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy disables Quick Settings.</Description>
       <Guid>{f924aeff-4f3b-55dc-94c7-78af7c607829}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -7492,10 +7143,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy disables users from editing Quick Settings.</Description>
       <Guid>{59654000-f60e-530e-aba0-a9c5e5bba7c1}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -7746,10 +7394,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting allows you to import Microsoft Edge assets to be used with StartLayout policy. Start layout can contain secondary tile from Microsoft Edge app which looks for Microsoft Edge local asset file. Microsoft Edge local asset would not exist and cause Microsoft Edge secondary tile to appear empty in this case. This policy only gets applied when StartLayout policy is modified.</Description>
       <Guid>{c282434c-8d26-5ab8-a70c-ae6f6e0de590}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -7790,10 +7435,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy applies the default or simplified Quick Actions layout.</Description>
       <Guid>{02dadde9-fbdc-536d-95fc-98ceba78a80d}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -7804,10 +7446,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy applies a layout to Start (typically the output of Export-StartLayout in PowerShell). When a full Start layout is applied with this method, the users cannot pin, unpin, or uninstall apps from Start. Users can view and open all apps in the All Apps view, but they cannot pin any apps to Start. When a partial Start layout is applied, the contents of the specified tile groups cannot be changed, but users can move those groups, and can also create and customize their own groups.</Description>
       <Guid>{1e615adf-5fae-54f8-a9bd-8d3835acaf64}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -8091,6 +7730,18 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
         <LowerBound>0</LowerBound>
         <UpperBound>1</UpperBound>
       </ValidationInfo>
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/Policies/System/HideUnsupportedHardwareNotifications">
+      <Type>Int</Type>
+      <Name>HideUnsupportedHardwareNotifications</Name>
+      <Description>This policy controls messages which are shown when Windows is running on a device that does not meet the minimum system requirements for this OS version.                   If you enable this policy setting, these messages will never appear on desktop or in the Settings app.                   If you disable or do not configure this policy setting, these messages will appear on desktop and in the Settings app when Windows is running on a device that does not meet the minimum system requirements for this OS version.</Description>
+      <Guid>{542bbeea-7eea-584a-9898-f1329dc23c5c}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>0</Default>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -8391,10 +8042,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specifies the time zone to be applied to the device.  This is the standard Windows name for the target time zone.</Description>
       <Guid>{9bcb8a16-b49b-512a-b252-4921347e528b}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -8952,10 +8600,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Enable this policy to specify a Windows product version for the target feature update.</Description>
       <Guid>{83296c80-a6f8-5068-bb85-8fa081ed9f41}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -9245,10 +8890,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Enable this policy to specify a target feature update.</Description>
       <Guid>{0d8e722a-2798-590e-9476-61478a0762db}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -9275,10 +8917,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{5f3d69f0-6e03-5e48-a36e-dfc9a1c40edd}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>CorpWSUS</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -9289,10 +8928,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{dca8d7d4-6708-5c8c-97d4-129a761d6a2f}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -9445,10 +9081,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting controls whether a device will automatically sign-in the last interactive user after Windows Update restarts the system.  If you enable or do not configure this policy setting, the device securely saves the user"s credentials (including the user name, domain and encrypted password) to configure automatic sign-in after a Windows Update restart. After the Windows Update restart, the user is automatically signed-in and the session is automatically locked with all the lock screen apps configured for that user.  If you disable this policy setting, the device does not store the user"s credentials for automatic sign-in after a Windows Update restart. The users" lock screen apps are not restarted after the system restarts.</Description>
       <Guid>{cafdb468-53d6-503c-b032-0c08c0a1df9e}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -9459,10 +9092,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>This policy setting allows you to prevent app notifications from appearing on the lock screen.  If you enable this policy setting, no app notifications are displayed on the lock screen.  If you disable or do not configure this policy setting, users can choose which apps display notifications on the lock screen.</Description>
       <Guid>{78d551f6-8600-5cdc-ba23-7d9f0a16974e}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -9583,10 +9213,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specifies the default overlay power scheme to use on AC.</Description>
       <Guid>{be079cb2-4505-50d4-8eb2-4532f5535896}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -9597,10 +9224,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specifies the default overlay power scheme to use on DC.</Description>
       <Guid>{49786c4b-b95e-50f4-9ea4-f46dc8aa517c}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -9611,10 +9235,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specifies the default overlay power scheme to use. This setting is deprecated.</Description>
       <Guid>{a5af4de0-2c17-55cb-b0e5-d41392819f08}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -9800,8 +9421,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{369ef907-a931-5054-9f43-f1302b8b70c8}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10012,8 +9631,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{8d78979b-4e3f-59f9-b19b-1c8bfadd129b}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10091,8 +9708,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{a733dc6a-64d1-5ec6-a253-6bf291bf21a3}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10116,8 +9731,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{90b3c69f-3548-5e76-a6a1-0826d9085c0a}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10171,8 +9784,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{21899233-907b-54ca-ac84-c8237d0fc4b0}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern>^\d$</Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10196,8 +9807,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{4b063506-6bfa-5d46-95af-bf4d1fa7892c}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern>^\d$</Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10221,8 +9830,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{2ddf2b49-7318-5eed-9ad4-caacf4e4e22f}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern>^\d$</Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10246,8 +9853,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{faa8478a-9b4a-5184-a220-327ac40e478c}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern>^\d$</Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10281,8 +9886,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{12c14393-9e4d-5cca-a8ac-569580550403}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10306,8 +9909,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{d9dfdd2c-bd66-5f75-963d-f4da4440a2b1}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10331,8 +9932,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{a7a32b89-9bb5-5962-8dc9-78f28dcd165d}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10356,8 +9955,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{35ee2dcc-870b-5f27-9be7-a0f08cd93bf1}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10381,8 +9978,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{10e2e336-9ca3-580d-82c5-ab397d1171cc}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10406,8 +10001,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{db303c6a-9621-567b-9a2d-24d578f21578}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10431,8 +10024,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{6079cce9-d410-5093-bb96-04a86ebc228a}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10456,8 +10047,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{a8e8789b-4eb9-536d-99a2-51cc1f9353fe}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10481,8 +10070,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{607c659b-b07e-5a30-8245-a8365f00f6dd}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10506,8 +10093,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{95ce02cc-6b5e-50f3-b3b1-acbb93bd01ec}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10531,8 +10116,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{19cf3fe3-a70a-53a3-8fbc-00e49bb52aad}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10556,8 +10139,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{3a5fb5d8-9f0f-55f4-a7ec-e6ac5b3bce09}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10581,8 +10162,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{19f8df52-28e6-5e9d-ba35-1cbc90b1c0ef}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -10665,10 +10244,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description></Description>
       <Guid>{a0c0d785-1c0c-549e-ae2c-9cf68851901f}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -10688,7 +10264,367 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Name>Command</Name>
       <Description></Description>
       <Guid>{a068aee4-a3fb-59da-b485-cf14b30c1d5f}</Guid>
+      <IsLeaf>False</IsLeaf>
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/0">
+      <Type>Tree</Type>
+      <Name>Set-AutoPilot</Name>
+      <Description></Description>
+      <Guid>{389d3366-dab9-529c-80e6-1275874be60c}</Guid>
+      <IsLeaf>False</IsLeaf>
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/0/CommandFile">
+      <Type>Asset</Type>
+      <Name>CommandFile</Name>
+      <Description>Scripts and associated files used by commands and scripts to be included in the provisioning package.</Description>
+      <Guid>{aff3b688-e415-5cb1-9204-290674ba2b09}</Guid>
       <IsLeaf>True</IsLeaf>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/0/CommandLine">
+      <Type>Text</Type>
+      <Name>CommandLine</Name>
+      <Description></Description>
+      <Guid>{5d42e425-04db-55e8-b906-f88aa7a80563}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/0/ContinueInstall">
+      <Type>Bool</Type>
+      <Name>ContinueInstall</Name>
+      <Description>Continue installation of subsequent applications if the current install fails</Description>
+      <Guid>{47441f4f-081c-593b-8712-10cb56f7afe1}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>False</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/0/DependencyPackages">
+      <Type>AssetList</Type>
+      <Name>DependencyPackages</Name>
+      <Description>Win32 app dependencies</Description>
+      <Guid>{cf113e11-147d-502e-877b-e0a80c2dfa3b}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/0/RestartRequired">
+      <Type>Bool</Type>
+      <Name>RestartRequired</Name>
+      <Description></Description>
+      <Guid>{e75b3308-d85a-505c-b4aa-4cf20479e7a1}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>False</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/0/ReturnCodeRestart">
+      <Type>Int</Type>
+      <Name>ReturnCodeRestart</Name>
+      <Description>Specify which return codes indicate a restart is required before application can be used</Description>
+      <Guid>{5ca51682-c380-5e58-b715-7a0c3921122d}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>3010</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/0/ReturnCodeSuccess">
+      <Type>Int</Type>
+      <Name>ReturnCodeSuccess</Name>
+      <Description>Specify which return codes are interpreted as a successful install</Description>
+      <Guid>{59297837-b122-59c9-a377-aad6a0392db0}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>0</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/1">
+      <Type>Tree</Type>
+      <Name>Set-UserOOBE</Name>
+      <Description></Description>
+      <Guid>{981d0041-ba88-572a-9657-d298682ad207}</Guid>
+      <IsLeaf>False</IsLeaf>
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/1/CommandFile">
+      <Type>Asset</Type>
+      <Name>CommandFile</Name>
+      <Description>Scripts and associated files used by commands and scripts to be included in the provisioning package.</Description>
+      <Guid>{cc8de827-f26f-5abc-a5b9-09508dd23999}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/1/CommandLine">
+      <Type>Text</Type>
+      <Name>CommandLine</Name>
+      <Description></Description>
+      <Guid>{15965948-b575-503f-a290-faa846ddaac5}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/1/ContinueInstall">
+      <Type>Bool</Type>
+      <Name>ContinueInstall</Name>
+      <Description>Continue installation of subsequent applications if the current install fails</Description>
+      <Guid>{114bbdb8-b5ae-575d-95b5-c0aa4528d6ee}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>False</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/1/DependencyPackages">
+      <Type>AssetList</Type>
+      <Name>DependencyPackages</Name>
+      <Description>Win32 app dependencies</Description>
+      <Guid>{677f9522-e257-5803-aea7-569818d40d79}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/1/RestartRequired">
+      <Type>Bool</Type>
+      <Name>RestartRequired</Name>
+      <Description></Description>
+      <Guid>{cd78e7e2-5019-5a71-84d6-fe593a4381ea}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>False</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/1/ReturnCodeRestart">
+      <Type>Int</Type>
+      <Name>ReturnCodeRestart</Name>
+      <Description>Specify which return codes indicate a restart is required before application can be used</Description>
+      <Guid>{2e23a1a1-fd72-5b63-a438-2ef743d2d700}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>3010</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/1/ReturnCodeSuccess">
+      <Type>Int</Type>
+      <Name>ReturnCodeSuccess</Name>
+      <Description>Specify which return codes are interpreted as a successful install</Description>
+      <Guid>{87ec6f2a-30a6-5930-83cd-bc6855113a47}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>0</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/2">
+      <Type>Tree</Type>
+      <Name>Set-Reset</Name>
+      <Description></Description>
+      <Guid>{4f79b962-2c73-5ae9-a67d-01d9258d442c}</Guid>
+      <IsLeaf>False</IsLeaf>
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/2/CommandFile">
+      <Type>Asset</Type>
+      <Name>CommandFile</Name>
+      <Description>Scripts and associated files used by commands and scripts to be included in the provisioning package.</Description>
+      <Guid>{5ccfe7bf-4ba6-5d20-9233-8d26f34e7e8c}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/2/CommandLine">
+      <Type>Text</Type>
+      <Name>CommandLine</Name>
+      <Description></Description>
+      <Guid>{73bbb678-9100-5ebb-97ba-006dbcf0ff89}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/2/ContinueInstall">
+      <Type>Bool</Type>
+      <Name>ContinueInstall</Name>
+      <Description>Continue installation of subsequent applications if the current install fails</Description>
+      <Guid>{5a084d17-5a28-5637-bf15-3d9bc244e141}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>False</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/2/DependencyPackages">
+      <Type>AssetList</Type>
+      <Name>DependencyPackages</Name>
+      <Description>Win32 app dependencies</Description>
+      <Guid>{0cbce847-cf67-53d6-ad58-9d8d8c5bb4ee}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/2/RestartRequired">
+      <Type>Bool</Type>
+      <Name>RestartRequired</Name>
+      <Description></Description>
+      <Guid>{56b78873-a5de-5154-b43a-e04177f99435}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>False</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/2/ReturnCodeRestart">
+      <Type>Int</Type>
+      <Name>ReturnCodeRestart</Name>
+      <Description>Specify which return codes indicate a restart is required before application can be used</Description>
+      <Guid>{e77dd34f-14a5-56ed-844e-81b04da30e81}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>3010</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/2/ReturnCodeSuccess">
+      <Type>Int</Type>
+      <Name>ReturnCodeSuccess</Name>
+      <Description>Specify which return codes are interpreted as a successful install</Description>
+      <Guid>{983614e2-2923-5cc4-9cd1-536bcca61f8d}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>0</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/3">
+      <Type>Tree</Type>
+      <Name>Disable-WindowsUpdate</Name>
+      <Description></Description>
+      <Guid>{4853850c-85c0-5cb2-b72e-5c5244ca68cf}</Guid>
+      <IsLeaf>False</IsLeaf>
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/3/CommandFile">
+      <Type>Asset</Type>
+      <Name>CommandFile</Name>
+      <Description>Scripts and associated files used by commands and scripts to be included in the provisioning package.</Description>
+      <Guid>{5a5d9106-b4a8-541e-8666-c095665d32b7}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/3/CommandLine">
+      <Type>Text</Type>
+      <Name>CommandLine</Name>
+      <Description></Description>
+      <Guid>{81bb4407-538e-57ba-90bb-45c49aaff9fd}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/3/ContinueInstall">
+      <Type>Bool</Type>
+      <Name>ContinueInstall</Name>
+      <Description>Continue installation of subsequent applications if the current install fails</Description>
+      <Guid>{6eb1c3bd-15c1-5163-bc13-217d7f49f008}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>False</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/3/DependencyPackages">
+      <Type>AssetList</Type>
+      <Name>DependencyPackages</Name>
+      <Description>Win32 app dependencies</Description>
+      <Guid>{40fb29f4-5eee-59df-bffe-a7b86f88eb7a}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/3/RestartRequired">
+      <Type>Bool</Type>
+      <Name>RestartRequired</Name>
+      <Description></Description>
+      <Guid>{3b62def5-897d-5408-bbaf-bc3d08608138}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>False</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/3/ReturnCodeRestart">
+      <Type>Int</Type>
+      <Name>ReturnCodeRestart</Name>
+      <Description>Specify which return codes indicate a restart is required before application can be used</Description>
+      <Guid>{b5645cf6-5d88-5338-9437-1984d5db0e5c}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>3010</Default>
+      <ValidationInfo />
+      <AppearsIn>
+        <Windows Edition="Unknown" Version="Unknown" Component="" />
+      </AppearsIn>
+    </Setting>
+    <Setting URI="/ProvisioningCommands/PrimaryContext/Command/3/ReturnCodeSuccess">
+      <Type>Int</Type>
+      <Name>ReturnCodeSuccess</Name>
+      <Description>Specify which return codes are interpreted as a successful install</Description>
+      <Guid>{b9877ff0-9cf8-5345-87dc-3972df6ce4ef}</Guid>
+      <IsLeaf>True</IsLeaf>
+      <Default>0</Default>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -10881,10 +10817,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specifies the AUMID of the app to use with assigned access.</Description>
       <Guid>{1bbf4b35-d76c-54ce-8428-db499554bb7b}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -10895,10 +10828,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specifies the display text for the account shown on the sign-in screen which launches the app specified by KioskModeAUMID.</Description>
       <Guid>{947c3a93-92b3-557d-9a10-ed63d5452c5c}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11041,10 +10971,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Domain name of the auto logon user.</Description>
       <Guid>{c6267c54-d0fd-5f57-9ee9-95b847ffb1c6}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11056,10 +10983,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{9c7725f4-e4cf-5d07-b50c-268d804e1323}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>1</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11070,10 +10994,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Password of the auto logon user.</Description>
       <Guid>{0ee1971a-8c0c-534c-819c-3e7c3c1a8fdf}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11084,10 +11005,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Default user name that will be automatically signed into.</Description>
       <Guid>{cad2f602-f8f0-5740-a656-e211115c508c}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11238,8 +11156,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{47052d30-6f19-5e93-aafb-9b3281fa8852}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -11263,8 +11179,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{b513f105-6016-5267-9731-d777d09d7f74}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -11324,10 +11238,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{c0e97d9c-a91a-521e-8547-f7b7ef1a1ba2}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11339,10 +11250,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{e63c550b-90dc-5506-a9d1-17e4d4df95de}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11354,10 +11262,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{5e665e3a-e38e-569c-af9a-8c4ee26a0b37}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11369,10 +11274,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{d01b40af-252d-55ce-b2ed-06f8f4417895}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11384,10 +11286,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{21ec8a14-f731-5999-9466-865bf5e7743c}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11399,10 +11298,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{c99cad4c-4674-5b2f-9ecc-faeaae791b45}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11414,10 +11310,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{8e12c1a9-7234-5e37-94d9-373d1e378cf4}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11429,10 +11322,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{2061f183-f0ac-5c35-aeff-3e909d4c6e83}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11444,10 +11334,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{0dde9b05-a1ba-5cf6-bf4e-20803f693892}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11459,10 +11346,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{47c87cf7-dbce-578e-9321-4eddc4fd85f8}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11474,10 +11358,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{cca50b29-b1eb-50f8-81f7-32b69ce88d5a}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11489,10 +11370,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{ae785354-5dc1-57c1-8510-33b2e42ee6a3}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11504,10 +11382,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{1f0eb0ac-1eee-5cc4-bac5-c3905fde11d5}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11519,10 +11394,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{534a7d48-f6de-5e47-8071-1c007b2524fb}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11534,10 +11406,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{ae5aced0-c448-50a8-a72a-144adaa58eab}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11549,10 +11418,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{745884af-b23a-5c5a-a5f9-a2f9591b6c11}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11564,10 +11430,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{d15d6773-1024-527f-98f0-8e303f4b88eb}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11579,10 +11442,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{0196fbcb-45aa-528a-ad11-ac5f17e7137d}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11594,10 +11454,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{413cff0f-ed09-520b-bfaf-524b0b9f5180}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11609,10 +11466,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{49545c84-d136-54a0-8cdc-493b748d87aa}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11624,10 +11478,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{ffb6ee7a-3cb2-57cc-afad-20e64eb939a7}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11639,10 +11490,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{aace6119-c70d-58c6-88fc-264b0bb21d2d}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11654,10 +11502,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{da32598c-d131-5226-a6e5-de08f6b49216}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11669,10 +11514,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{4eed1f86-e55d-5a4e-ad39-26a6fb3b96d3}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11684,10 +11526,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{973baa9b-0729-5e95-bbc5-34f2826b1cea}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11699,10 +11538,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{d62966a5-c9af-517a-9a3b-9c038e164989}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11714,10 +11550,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{efe90d10-1aff-57fb-9df0-799a36a019cf}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11729,10 +11562,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{fb217cd8-03f4-55c1-858f-837b21bcad56}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11744,10 +11574,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{6e860f09-211b-5281-b9e0-048eb04ba45d}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11759,10 +11586,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{c2c67d77-0bf5-5145-acb5-26e39597bbcd}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11774,10 +11598,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{4cbc804b-eba2-5148-8952-28f1e4857ed2}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11789,10 +11610,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{72e006b4-b40c-536f-8c46-ecb957ca28f6}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11804,10 +11622,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{021c9b09-ea7b-5451-a7cf-a639943ccbd5}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11819,10 +11634,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{f7a01324-0f33-5c51-8ad5-e01dbc089a30}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11834,10 +11646,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{ce610308-e798-5850-b3ec-8526f9643051}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11849,10 +11658,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{bfd95c8b-b0f0-56db-8ea7-0d83b332ed7a}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11864,10 +11670,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{672ad891-d946-5809-aca8-68932417dda8}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11879,10 +11682,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{c7deb060-7c21-5886-af82-2734d6849b70}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11894,10 +11694,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{798aa36c-0b54-58ac-aa01-8a234de57a62}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11909,10 +11706,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{4db0a9ee-123c-5f62-83f4-58fa8143caa7}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11924,10 +11718,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{774f9d0c-1cbd-5a1d-9adc-98173dc69527}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11939,10 +11730,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{053731ef-a3ef-52a6-93ac-37a4f0eddc5e}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11954,10 +11742,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{77e47a43-4577-5121-b27b-7d4c75b0baec}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11969,10 +11754,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{1066eb2f-a69a-58a1-9118-14bb9f6aa008}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11984,10 +11766,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{477e14b2-d5b5-5c20-b81e-66545d166232}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -11999,10 +11778,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{a50b2719-f8d2-5aa9-b175-4da9ba8f8cd8}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12014,10 +11790,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{34dfadd0-d3a6-54d3-871a-4d33398f41ec}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12029,10 +11802,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{f129f59d-ed51-5437-93a5-86f63effee63}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12044,10 +11814,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{f3e553c8-7af6-5a10-b574-37be630c09e6}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12059,10 +11826,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{98abd064-e81e-5640-ba4d-095337810e22}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12074,10 +11838,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{7511a28e-8103-51c3-af03-eb45f2aaa914}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12089,10 +11850,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{6de7065c-4b8d-5fb8-987f-76ca778cdf79}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12104,10 +11862,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{eb64067a-91a7-584d-940b-b09f1dcdacb5}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12119,10 +11874,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{d47c70b4-4cd6-5446-8424-58cb69969766}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12134,10 +11886,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{515855ce-90b8-5dfc-ae6c-02b7006f0be4}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12149,10 +11898,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{abf0c969-5719-5b76-b998-f56a4179251c}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12164,10 +11910,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{b4919964-4574-50fd-b9bb-fc835bf132dd}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12179,10 +11922,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{81291e41-dc8c-595d-87c3-06e550de296a}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12194,10 +11934,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{85724f42-78cf-5a8f-80d9-f8bfd9a4792b}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12209,10 +11946,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{2559286c-b168-557c-8388-818f9ba90b37}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12224,10 +11958,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{e630163b-2bdf-5541-8713-8bea76b07f83}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12239,10 +11970,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{0288e3f8-dde9-5a1f-af98-191620e619aa}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12254,10 +11982,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{a0ad145f-4d6e-5e48-8048-e5d980240a97}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12269,10 +11994,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{40633434-193b-5957-9147-f1d3b81d40e0}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12284,10 +12006,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{f1931b72-ae6b-552c-b5e4-3e5e5d28ad61}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12299,10 +12018,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{aff295ac-4aaf-5a26-b69c-6a4cfaa0c255}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12314,10 +12030,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{9af86e4c-8127-50e8-a324-0c87ac8a5200}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12329,10 +12042,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{3ba5c690-7a78-540a-a4c1-42a1a7123bd6}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12344,10 +12054,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{5ee53243-d6dd-5f0c-8652-500f741c5be2}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12359,10 +12066,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{d5dc4e8c-b396-5630-87be-5abf891cc1ae}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12374,10 +12078,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{d2a49474-b83a-52a0-9ec2-2bbc3991c5b7}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12389,10 +12090,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{fa2d9612-f3dc-53ab-af00-5d92d808ce69}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12404,10 +12102,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{dd226f7d-6e91-5935-b248-344bfe5dc1dc}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12419,10 +12114,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{c6a946e3-6772-5799-af86-50a03d465ad1}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12434,10 +12126,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{ee3836e8-8ad6-55fb-8ac7-2f64636d1808}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12449,10 +12138,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{ed2aec11-bf07-5611-ab9f-83187e9068f7}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12464,10 +12150,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{02a334b8-b2ba-5f8b-aa01-1635868a73ba}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12479,10 +12162,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{474247bb-c03a-5eb3-84e2-20ff8dd0422a}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12494,10 +12174,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{b3d711c5-67f5-5fce-bd25-386dbb8fb736}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12509,10 +12186,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{c7e54cfe-665b-5b51-981c-9302faf59038}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12524,10 +12198,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{245eb1f2-6952-5f27-a333-5ca9a3c6fd61}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>Allowed</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12561,10 +12232,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{63cfc81b-8817-501f-952f-54399836d9a2}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>cmd.exe</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12588,10 +12256,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{d8017b36-0da5-54bd-8b90-3820727d681b}</Guid>
       <IsLeaf>True</IsLeaf>
       <Default>eshell.exe</Default>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12613,8 +12278,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{9c75a1b7-0f9c-59af-bd40-c90c83ee5a29}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern>^[^\\\\]+$</Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -12628,8 +12291,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{29bbd7f0-40bf-5eba-acc0-2e93c2b922b7}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern>^[^\\\\]+$</Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -12643,8 +12304,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{e27213b5-d88b-553e-a9c0-6acdd4cd723e}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -12778,10 +12437,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Enables support for multiple assessments and for assessment grouping. The structure is specified by an XML.</Description>
       <Guid>{4564c8cd-698c-5e81-8160-7a4df063c165}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12792,10 +12448,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specify a link to an assessment that will be automatically loaded when the "Take a Test" app is launched.</Description>
       <Guid>{d4922fa5-5fc6-5d6a-917a-c83bd403d893}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12818,10 +12471,7 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Description>Specify the dedicated account to use when taking a test.</Description>
       <Guid>{2239087b-b5ee-538a-adeb-391415fa7618}</Guid>
       <IsLeaf>True</IsLeaf>
-      <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
-      </ValidationInfo>
+      <ValidationInfo />
       <AppearsIn>
         <Windows Edition="Unknown" Version="Unknown" Component="" />
       </AppearsIn>
@@ -12946,8 +12596,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{c7897de1-362a-5cca-a9b4-705b3e5686ad}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -12961,8 +12609,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{1c0a8429-912e-5435-9b48-82fe89ff9b99}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -13013,8 +12659,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{79bd0dc7-f6d4-5431-934f-016272224520}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -13028,8 +12672,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{8a57f7b8-a513-5a79-a219-724f45b768d9}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -13043,8 +12685,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{e16a20c2-d939-5cc3-8d08-695fc590090b}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -13058,8 +12698,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{0fc75268-a34f-557a-b410-5059da16fa10}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -13073,8 +12711,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{0943d1c4-e8a3-53e1-aa22-32c8040b5812}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -13088,8 +12724,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{e8108278-8d39-5811-8a25-5dd96553e702}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -13113,8 +12747,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{6a20fee5-cb7d-5253-93cc-c44c10197e93}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -13128,8 +12760,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{9f85d3c8-e003-5d8f-acf5-968fa1b61d02}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -13143,8 +12773,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{40b77279-d5fe-5953-ba0f-4d840b623304}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -13280,8 +12908,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{20fc24d1-3a85-5992-a238-58dc216378d1}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>
@@ -13330,8 +12956,6 @@ One: Either Wi-Fi or Bluetooth will stop working</Description>
       <Guid>{c1bcfc86-d030-5916-b640-12cf9c6adf37}</Guid>
       <IsLeaf>True</IsLeaf>
       <ValidationInfo>
-        <MinimumLength>0</MinimumLength>
-        <MaximumLength>-1</MaximumLength>
         <Pattern></Pattern>
       </ValidationInfo>
       <AppearsIn>

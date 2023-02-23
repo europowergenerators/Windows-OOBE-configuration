@@ -2,22 +2,27 @@
 New-Item -ItemType Directory -Path 'C:\HWID' -ErrorAction SilentlyContinue | Out-Null
 
 $manualProvisionScript = @'
-$LogFile = 'C:\HWID\autopilot-log.txt'
-& {
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned -Force
+Start-Transcript -OutputDirectory 'C:\HWID' -NoClobber -IncludeInvocationHeader
+
 Start-Service W32Time
 W32tm /resync /force
 Write-Host 'Time sync DONE'
 
-Set-Location -Path "C:\HWID"
+# InputLocale 0813:00000813 is the code for nl-BE:Belgium (Point)
+Set-WinUserLanguageList -LanguageList nl-BE -Force
+Write-Host 'Keyboard config DONE'
+
 $env:Path += ";C:\Program Files\WindowsPowerShell\Scripts"
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned -Force
 Install-PackageProvider -Name Nuget -MinimumVersion 2.8.5.201 -Force
 Install-Script -Name Get-WindowsAutopilotInfo -Force
-Write-Host 'Preparation DONE'
+Write-Host 'Autopilot preparation DONE'
 
+Set-Location -Path "C:\HWID"
 Get-WindowsAutopilotInfo -Online
-Write-Host 'Enrollment DONE'
-} *>&1 | Tee-Object -Append -FilePath $LogFile
+Write-Host 'Autopilot registration DONE'
+
+Stop-Transcript
 '@
 Out-File -InputObject $manualProvisionScript -FilePath 'C:\HWID\Launch-AutoPilot.ps1' -Force
 
