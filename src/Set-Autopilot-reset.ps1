@@ -5,7 +5,8 @@ $manualProvisionScript = @'
 # REF; https://techcommunity.microsoft.com/t5/windows-deployment/factory-reset-windows-10-without-user-intervention/m-p/1349038/highlight/true#M559
 $namespaceName = "root\cimv2\mdm\dmmap"
 $className = "MDM_RemoteWipe"
-$methodName = "doWipeMethod"
+# NOTE; Performing a full wipe is preferred because the other methods leave vendor specialization intact. We do not want that.
+$methodName = "doWipeProtectedMethod"
 
 $session = New-CimSession
 
@@ -33,8 +34,9 @@ $shortcut.TargetPath = 'C:\Windows\System32\schtasks.exe'
 $shortcut.Arguments = "/run /tn `"${Label}`""
 $shortcut.Save()
 
-# Set the "Run as administrator" bit
-# Required because executing tasks that the user doesn't own is forbidden
+# Set the "Run as administrator" bit. Updating the access rules on the task itself is another option, but more complicated.
+# Run as Administrator (or Access Control modification) is required because by default a user cannot run tasks that aren't
+# owned by himself.
 $bytes = [System.IO.File]::ReadAllBytes($ShortcutPath)
 $bytes[0x15] = $bytes[0x15] -bor 0x20 #set byte 21 (0x15) bit 6 (0x20) ON
 [System.IO.File]::WriteAllBytes($ShortcutPath, $bytes)

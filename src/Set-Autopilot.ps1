@@ -13,13 +13,14 @@ Write-Host 'Time sync DONE'
 Set-WinUserLanguageList -LanguageList nl-BE -Force
 Write-Host 'Keyboard config DONE'
 
-$env:Path += ";C:\Program Files\WindowsPowerShell\Scripts"
+$env:Path += ';C:\Program Files\WindowsPowerShell\Scripts'
 Install-PackageProvider -Name Nuget -MinimumVersion 2.8.5.201 -Force
 Install-Script -Name Get-WindowsAutopilotInfo -Force
 Write-Host 'Autopilot preparation DONE'
 
-Set-Location -Path "C:\HWID"
-Get-WindowsAutopilotInfo -Online
+Set-Location -Path 'C:\HWID'
+# NOTE; No need to wait for profile assignment, because the reset will take a long time.
+Get-WindowsAutopilotInfo -Online -AddToGroup 'Autopilot Policy - Belgium autopilot-registered devices'
 Write-Host 'Autopilot registration DONE'
 
 Stop-Transcript
