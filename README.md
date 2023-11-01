@@ -1,3 +1,8 @@
+> [!NOTE]
+> This repository is archived because the lead time until end of the provisioning process is too long (> 4 hours).
+> There are also issues with bitlocker decrypting the volume eventual consistencies, reinstalling windows not actually deleting files from the old install and the general SSD wear doing a system reset.  
+> We now receive a new computer, and perform a clean install of windows, and manually register (once) Autopilot information using powershell (3 lines of code memorized)
+
 # e-power OOBE
 
 Given a Windows client in OOBE, get ASAP to the desktop!
